@@ -1,0 +1,10 @@
+D:\Visual studio\XML\bai_1\bin\Debug\bai_1.exe.config
+D:\Visual studio\XML\bai_1\bin\Debug\bai_1.exe
+D:\Visual studio\XML\bai_1\bin\Debug\bai_1.pdb
+D:\Visual studio\XML\bai_1\obj\Debug\bai_1.csproj.AssemblyReference.cache
+D:\Visual studio\XML\bai_1\obj\Debug\bai_1.Form1.resources
+D:\Visual studio\XML\bai_1\obj\Debug\bai_1.Properties.Resources.resources
+D:\Visual studio\XML\bai_1\obj\Debug\bai_1.csproj.GenerateResource.cache
+D:\Visual studio\XML\bai_1\obj\Debug\bai_1.csproj.CoreCompileInputs.cache
+D:\Visual studio\XML\bai_1\obj\Debug\bai_1.exe
+D:\Visual studio\XML\bai_1\obj\Debug\bai_1.pdb

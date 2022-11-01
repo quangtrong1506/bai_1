@@ -1,0 +1,46 @@
+<congty>
+  <nhanvien id="NV001">
+    <hoten>Linh</hoten>
+    <tuoi>20</tuoi>
+    <luong>12000</luong>
+    <diachi>
+      <xa>Xa 1</xa>
+      <huyen>Huyen 2</huyen>
+      <tinh>Tinh 3</tinh>
+    </diachi>
+    <sodienthoai>0222</sodienthoai>
+  </nhanvien>
+  <nhanvien id="NV002">
+    <hoten>Linh nhi</hoten>
+    <tuoi>20</tuoi>
+    <luong>12000</luong>
+    <diachi>
+      <xa>Xa 1</xa>
+      <huyen>Huyen 2</huyen>
+      <tinh>Tinh 3</tinh>
+    </diachi>
+    <sodienthoai>0222</sodienthoai>
+  </nhanvien>
+  <nhanvien id="NV003">
+    <hoten>Linh nhi 3</hoten>
+    <tuoi>20</tuoi>
+    <luong>120</luong>
+    <diachi>
+      <xa>Xa 1</xa>
+      <huyen>Huyen 2</huyen>
+      <tinh>Tinh 3</tinh>
+    </diachi>
+    <sodienthoai>0222</sodienthoai>
+  </nhanvien>
+  <nhanvien id="NV004">
+    <hoten>Linh cute</hoten>
+    <tuoi>20</tuoi>
+    <luong>12000</luong>
+    <diachi>
+      <xa>Xa 1</xa>
+      <huyen>Huyen 2</huyen>
+      <tinh>Tinh 2</tinh>
+    </diachi>
+    <sodienthoai>0222</sodienthoai>
+  </nhanvien>
+</congty>

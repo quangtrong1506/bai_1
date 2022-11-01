@@ -219,6 +219,7 @@ namespace bai_1.Models
             return b;
         }
 
+
         public List<NhanVien> getAllDatas()
         {
             XmlNodeList a = root.SelectNodes("nhanvien");
@@ -257,5 +258,7 @@ namespace bai_1.Models
                 }
             }
         }
+
+
     }
 }

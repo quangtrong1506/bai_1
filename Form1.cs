@@ -24,7 +24,14 @@ namespace bai_1
 
         private void add_btn(object sender, EventArgs e)
         {
+            if (TextBoxEmpty())
+            {
+                MessageBox.Show(null, "Các ô nhập vào k được để trống", "Thông báo");
+                return;
+
+            }
             NhanVien nv = new NhanVien();
+
             nv.id = ma_input.Text.Trim();
             nv.hoTen = ten_input.Text.Trim();
             nv.luong = float.Parse(luong_input.Text.Trim());
@@ -47,10 +54,33 @@ namespace bai_1
 
         }
 
+        private Boolean TextBoxEmpty()
+        {
+            string id = ma_input.Text.Trim();
+            string hoTen = ten_input.Text.Trim();
+            string luong = luong_input.Text.Trim();
+            string tuoi = tuoi_input.Text.Trim();
+            string xa = xa_input.Text.Trim();
+            string huyen = huyen_input.Text.Trim();
+            string tinh = tinh_input.Text.Trim();
+            string soDienThoai = sodienthoai_input.Text.Trim();
+
+            if (id.Length == 0 || hoTen.Length == 0 || luong.Length == 0 || tuoi.Length == 0 || xa.Length == 0 || huyen.Length == 0 || tinh.Length == 0 || soDienThoai.Length == 0)
+                return true;
+            return false;
+        }
         private void display(List<NhanVien> x)
         {
             view.DataSource = x;
             setCountElemet(x.Count);
+            view.Columns[0].HeaderText = "ID";
+            view.Columns[1].HeaderText = "Họ & Tên";
+            view.Columns[2].HeaderText = "Tuổi";
+            view.Columns[3].HeaderText = "Lương";
+            view.Columns[4].HeaderText = "Số Điện Thoại";
+            view.Columns[5].HeaderText = "Xã";
+            view.Columns[6].HeaderText = "Huyện";
+            view.Columns[7].HeaderText = "Tỉnh";
         }
 
         private void displayAll()
@@ -79,9 +109,15 @@ namespace bai_1
 
         private void edit_btn(object sender, EventArgs e)
         {
+
             string id = ma_input.Text.Trim();
             if (data.checkID(id))
             {
+                if (TextBoxEmpty())
+                {
+                    MessageBox.Show(null, "Các ô nhập vào k được để trống", "Thông báo");
+                    return;
+                }
                 NhanVien nv = new NhanVien();
                 nv.id = ma_input.Text.Trim();
                 nv.hoTen = ten_input.Text.Trim();
